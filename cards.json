@@ -1,0 +1,686 @@
+{
+  "cards": [
+    {
+      "id": "00",
+      "roman": "0",
+      "name_traditional": "the fool",
+      "name_codex": "// hello world",
+      "name_technical": "fool.init()",
+      "illustration_path": "assets/00-fool.png",
+      "reading": {
+        "opening": "Every great system begins with someone pressing Enter without knowing what comes next.",
+        "today": "Today is a hello world day.",
+        "body": "Start the thing you've been afraid to start. The first version will be embarrassing. That's the entire point."
+      },
+      "do_list": [
+        "open a new file",
+        "ship something at 30% confidence",
+        "say yes to the meeting",
+        "push the small commit"
+      ],
+      "dont_list": [
+        "refactor before you've written it once",
+        "ask three friends what they think",
+        "wait for the right moment"
+      ],
+      "lucky": {
+        "color": "#FF6B35",
+        "commit": "feat: initial",
+        "time": "14:00 – 16:00",
+        "avoid": "code review meetings",
+        "companion": "XVII the star"
+      }
+    },
+    {
+      "id": "01",
+      "roman": "I",
+      "name_traditional": "the magician",
+      "name_codex": "// the engineer",
+      "name_technical": "engineer.build()",
+      "illustration_path": "assets/01-engineer.png",
+      "reading": {
+        "opening": "You have all the tools you need. The shame would be in pretending otherwise.",
+        "today": "Today is a build day.",
+        "body": "The thing you've been meaning to make — make it. Badly. Now. The polish comes later, or it doesn't come, and that's also fine."
+      },
+      "do_list": [
+        "open the terminal you've been avoiding",
+        "write the prototype in one sitting",
+        "ignore the framework debate",
+        "commit before lunch"
+      ],
+      "dont_list": [
+        "read another tutorial",
+        "benchmark before you've built it",
+        "ask permission for a side project"
+      ],
+      "lucky": {
+        "color": "#FFFFFF",
+        "commit": "feat: prototype",
+        "time": "09:00 – 12:00",
+        "avoid": "slack notifications",
+        "companion": "XXI the mvp"
+      }
+    },
+    {
+      "id": "02",
+      "roman": "II",
+      "name_traditional": "the high priestess",
+      "name_codex": "// the documentation",
+      "name_technical": "docs.read()",
+      "illustration_path": "assets/02-documentation.png",
+      "reading": {
+        "opening": "The answer was already written. Someone, somewhere, three years ago, in a comment you've never read.",
+        "today": "Today is a reading day.",
+        "body": "Stop guessing. Open the docs. The thing you're stuck on is solved on page four of something boring."
+      },
+      "do_list": [
+        "read the README before you ask",
+        "search the codebase for \"// TODO\"",
+        "check the changelog",
+        "trust the manual"
+      ],
+      "dont_list": [
+        "guess the API shape",
+        "copy from Stack Overflow without reading",
+        "assume the docs are wrong"
+      ],
+      "lucky": {
+        "color": "#6B6B6B",
+        "commit": "docs: clarify",
+        "time": "before 11:00",
+        "avoid": "chatgpt for syntax",
+        "companion": "IX the maintainer"
+      }
+    },
+    {
+      "id": "03",
+      "roman": "III",
+      "name_traditional": "the empress",
+      "name_codex": "// the mainframe",
+      "name_technical": "mainframe.serve()",
+      "illustration_path": "assets/03-mainframe.png",
+      "reading": {
+        "opening": "The system that holds everything together is older than you, and it does not need your gratitude.",
+        "today": "Today is an abundance day.",
+        "body": "Resources are available. The infrastructure works. Use what is already there before you build something new."
+      },
+      "do_list": [
+        "use the existing library",
+        "call the internal API",
+        "delegate to the database",
+        "trust the cache"
+      ],
+      "dont_list": [
+        "rewrite from scratch",
+        "\"what if we used a different framework\"",
+        "optimize what is already fast enough"
+      ],
+      "lucky": {
+        "color": "#2E5A3E",
+        "commit": "chore: use existing",
+        "time": "14:00 – 17:00",
+        "avoid": "greenfield projects",
+        "companion": "V the onboarding"
+      }
+    },
+    {
+      "id": "04",
+      "roman": "IV",
+      "name_traditional": "the emperor",
+      "name_codex": "// the architect",
+      "name_technical": "architect.design()",
+      "illustration_path": "assets/04-architect.png",
+      "reading": {
+        "opening": "Structure is not creativity's enemy. Structure is what makes creativity not a mess.",
+        "today": "Today is a structure day.",
+        "body": "Write the schema before the feature. Draw the diagram before the meeting. The boring document you avoid is the one that will save you in six months."
+      },
+      "do_list": [
+        "write the design doc",
+        "diagram before coding",
+        "name your types carefully",
+        "enforce the convention"
+      ],
+      "dont_list": [
+        "\"we'll figure it out later\"",
+        "skip the architecture review",
+        "merge without a plan"
+      ],
+      "lucky": {
+        "color": "#1F1F1F",
+        "commit": "refactor: define schema",
+        "time": "10:00 – 12:00",
+        "avoid": "quick fixes",
+        "companion": "XI the audit"
+      }
+    },
+    {
+      "id": "05",
+      "roman": "V",
+      "name_traditional": "the hierophant",
+      "name_codex": "// the onboarding",
+      "name_technical": "onboarding.run()",
+      "illustration_path": "assets/05-onboarding.png",
+      "reading": {
+        "opening": "The way it's always been done is not always wrong. Sometimes the tradition is the wisdom.",
+        "today": "Today is a learning day.",
+        "body": "Ask the senior engineer the question you're embarrassed to ask. Read the style guide. The boring conventions exist because someone, once, suffered."
+      },
+      "do_list": [
+        "ask the dumb question",
+        "follow the team's style guide",
+        "review yesterday's PR feedback",
+        "shadow someone wiser"
+      ],
+      "dont_list": [
+        "improvise on the standards",
+        "\"I have a better way\"",
+        "skip the orientation"
+      ],
+      "lucky": {
+        "color": "#8B7355",
+        "commit": "style: follow convention",
+        "time": "morning standup",
+        "avoid": "lone wolf decisions",
+        "companion": "II the documentation"
+      }
+    },
+    {
+      "id": "06",
+      "roman": "VI",
+      "name_traditional": "the lovers",
+      "name_codex": "// the pairing",
+      "name_technical": "pair.commit()",
+      "illustration_path": "assets/06-pairing.png",
+      "reading": {
+        "opening": "Two engineers, one keyboard. Either it becomes love or it becomes a postmortem.",
+        "today": "Today is a pairing day.",
+        "body": "The bug you can't see, someone else will see in five minutes. The pride of debugging alone is not worth the four hours."
+      },
+      "do_list": [
+        "screen-share with someone",
+        "review a PR thoroughly",
+        "explain your code out loud",
+        "ask for a second pair of eyes"
+      ],
+      "dont_list": [
+        "debug alone past 22:00",
+        "merge your own PR",
+        "assume they'll understand without context"
+      ],
+      "lucky": {
+        "color": "#D4AF37",
+        "commit": "chore: pair review",
+        "time": "15:00 – 17:00",
+        "avoid": "solo merges",
+        "companion": "XX the code review after review"
+      }
+    },
+    {
+      "id": "07",
+      "roman": "VII",
+      "name_traditional": "the chariot",
+      "name_codex": "// the sprint",
+      "name_technical": "sprint.ship()",
+      "illustration_path": "assets/07-sprint.png",
+      "reading": {
+        "opening": "Force of will is a renewable resource, but only just barely.",
+        "today": "Today is a push day.",
+        "body": "The thing has to ship. Not perfect, not elegant — shipped. You can apologize for the technical debt later. You cannot apologize for the missed deadline."
+      },
+      "do_list": [
+        "close the laptop at 19:00",
+        "ship at \"good enough\"",
+        "silence non-urgent slacks",
+        "protect your focus"
+      ],
+      "dont_list": [
+        "start a new initiative",
+        "attend the optional meeting",
+        "refactor \"while you're in there\""
+      ],
+      "lucky": {
+        "color": "#C92020",
+        "commit": "feat: ship it",
+        "time": "13:00 – 18:00",
+        "avoid": "all-hands meetings",
+        "companion": "XIX the ship day"
+      }
+    },
+    {
+      "id": "08",
+      "roman": "VIII",
+      "name_traditional": "strength",
+      "name_codex": "// the code review",
+      "name_technical": "review.kind()",
+      "illustration_path": "assets/08-code-review.png",
+      "reading": {
+        "opening": "The real strength is not crushing the junior engineer's PR. It is asking, gently, why they made the choice they made.",
+        "today": "Today is a kindness day.",
+        "body": "Be the reviewer you wish you had at 22. The criticism that lands is the criticism that arrives with a question, not a verdict."
+      },
+      "do_list": [
+        "ask before you assert",
+        "praise the part that's clever",
+        "explain the why, not the what",
+        "merge with grace"
+      ],
+      "dont_list": [
+        "comment \"no\" without explanation",
+        "nitpick the unimportant",
+        "review while hungry"
+      ],
+      "lucky": {
+        "color": "#E8C5A0",
+        "commit": "chore: gentle review",
+        "time": "after lunch",
+        "avoid": "friday afternoon merges",
+        "companion": "VI the pairing"
+      }
+    },
+    {
+      "id": "09",
+      "roman": "IX",
+      "name_traditional": "the hermit",
+      "name_codex": "// the maintainer",
+      "name_technical": "maintainer.tend()",
+      "illustration_path": "assets/09-maintainer.png",
+      "reading": {
+        "opening": "You are tending a forest no one remembers. The day it burns is the day they will learn your name — and misspell it.",
+        "today": "Today is a quiet day.",
+        "body": "Don't ask for credit. Don't explain what you do. The system runs because you are watching. That is enough, and also not enough."
+      },
+      "do_list": [
+        "merge the dependency bump nobody noticed",
+        "write the doc you've been postponing",
+        "log off at 18:00 sharp",
+        "update the version number"
+      ],
+      "dont_list": [
+        "attend the all-hands",
+        "respond to \"quick question\" DMs",
+        "explain your job to your parents again"
+      ],
+      "lucky": {
+        "color": "#6B6B6B",
+        "commit": "chore: bump version",
+        "time": "before 09:00",
+        "avoid": "recognition, visibility",
+        "companion": "V the onboarding"
+      }
+    },
+    {
+      "id": "10",
+      "roman": "X",
+      "name_traditional": "wheel of fortune",
+      "name_codex": "// the standup",
+      "name_technical": "standup.daily()",
+      "illustration_path": "assets/10-standup.png",
+      "reading": {
+        "opening": "Every day is mostly the same day. Then one of them, without warning, decides your year.",
+        "today": "Today is a routine day.",
+        "body": "The same standup, the same status, the same lunch. Show up anyway. The unremarkable days are doing more work than you think."
+      },
+      "do_list": [
+        "give your status in under 60 seconds",
+        "skip the speculation",
+        "end the meeting on time",
+        "have lunch alone"
+      ],
+      "dont_list": [
+        "volunteer for anything new",
+        "bring up the long-term vision",
+        "expect today to matter"
+      ],
+      "lucky": {
+        "color": "#A0A0A0",
+        "commit": "chore: routine maintenance",
+        "time": "09:30 sharp",
+        "avoid": "surprise initiatives",
+        "companion": "IX the maintainer"
+      }
+    },
+    {
+      "id": "11",
+      "roman": "XI",
+      "name_traditional": "justice",
+      "name_codex": "// the audit",
+      "name_technical": "audit.check()",
+      "illustration_path": "assets/11-audit.png",
+      "reading": {
+        "opening": "The metrics will be reviewed. The metrics have always been reviewed. The only question is whether you reviewed them first.",
+        "today": "Today is a reckoning day.",
+        "body": "Look at the numbers honestly. Not the ones you want to see — the other ones. The truth is usually less dramatic than the silence around it."
+      },
+      "do_list": [
+        "check your real metrics",
+        "read the postmortem",
+        "own your mistake before they find it",
+        "write the honest update"
+      ],
+      "dont_list": [
+        "spin the numbers",
+        "compare yourself to last quarter",
+        "promise what you can't ship"
+      ],
+      "lucky": {
+        "color": "#FFFFFF",
+        "commit": "fix: honest update",
+        "time": "09:00 – 10:00",
+        "avoid": "optimistic projections",
+        "companion": "XX the code review after review"
+      }
+    },
+    {
+      "id": "12",
+      "roman": "XII",
+      "name_traditional": "the hanged man",
+      "name_codex": "// the deadlock",
+      "name_technical": "deadlock.wait()",
+      "illustration_path": "assets/12-deadlock.png",
+      "reading": {
+        "opening": "You are waiting for them to move. They are waiting for you to move. The standoff itself is the choice.",
+        "today": "Today is a still day.",
+        "body": "Don't push. Don't message. Don't escalate. The thing you think requires urgency mostly requires patience."
+      },
+      "do_list": [
+        "close the slack tab",
+        "take the long lunch",
+        "read something unrelated to work",
+        "let the email sit"
+      ],
+      "dont_list": [
+        "send the follow-up",
+        "\"just checking in\"",
+        "force the decision"
+      ],
+      "lucky": {
+        "color": "#3A3A3A",
+        "commit": "wontfix: pending",
+        "time": "do not check",
+        "avoid": "1:1 meetings",
+        "companion": "XVIII the on-call"
+      }
+    },
+    {
+      "id": "13",
+      "roman": "XIII",
+      "name_traditional": "the refactor",
+      "name_codex": "// death",
+      "name_technical": "death.delete()",
+      "illustration_path": "assets/13-death.png",
+      "reading": {
+        "opening": "The function you wrote three years ago has served you. Today, you delete it. This is not loss. This is making room.",
+        "today": "Today is a deletion day.",
+        "body": "Remove the dead code. Archive the old project. Unsubscribe from the newsletter you no longer read. Endings are how systems stay alive."
+      },
+      "do_list": [
+        "delete the unused branch",
+        "close the abandoned PR",
+        "archive the stale repo",
+        "write the eulogy in the commit message"
+      ],
+      "dont_list": [
+        "preserve \"just in case\"",
+        "keep the file \"for reference\"",
+        "mourn the architecture"
+      ],
+      "lucky": {
+        "color": "#000000",
+        "commit": "chore: remove deprecated",
+        "time": "end of day",
+        "avoid": "nostalgia",
+        "companion": "XIV the refactor in progress"
+      }
+    },
+    {
+      "id": "14",
+      "roman": "XIV",
+      "name_traditional": "temperance",
+      "name_codex": "// the refactor in progress",
+      "name_technical": "refactor.iterate()",
+      "illustration_path": "assets/14-refactor-in-progress.png",
+      "reading": {
+        "opening": "Slowly. The system is being rebuilt while it runs. There is no version with a celebration at the end. The celebration is that it kept running.",
+        "today": "Today is a patience day.",
+        "body": "Make one small improvement. Then another. The ten-year codebase was not refactored in a weekend, and yours won't be either."
+      },
+      "do_list": [
+        "improve one thing today",
+        "write the test before the fix",
+        "migrate one file",
+        "leave it cleaner than you found it"
+      ],
+      "dont_list": [
+        "propose the big rewrite",
+        "\"let's just start over\"",
+        "estimate it will be quick"
+      ],
+      "lucky": {
+        "color": "#5B8C7B",
+        "commit": "refactor: incremental",
+        "time": "steady throughout",
+        "avoid": "big bang releases",
+        "companion": "XIII death"
+      }
+    },
+    {
+      "id": "15",
+      "roman": "XV",
+      "name_traditional": "the devil",
+      "name_codex": "// the legacy code",
+      "name_technical": "legacy.endure()",
+      "illustration_path": "assets/15-legacy-code.png",
+      "reading": {
+        "opening": "You are paying for decisions made by people who no longer work here. This is the job.",
+        "today": "Today is a haunted day.",
+        "body": "The bug is in code that pre-dates you. The architecture is from before the company knew what it was. Fix what you can. Forgive the rest."
+      },
+      "do_list": [
+        "read the git blame with compassion",
+        "document the weird thing",
+        "write a small fix, not a big one",
+        "accept what cannot be changed today"
+      ],
+      "dont_list": [
+        "rage-tweet about it",
+        "propose a full rewrite",
+        "assume malice (assume tiredness)"
+      ],
+      "lucky": {
+        "color": "#4A0E0E",
+        "commit": "fix: legacy patch",
+        "time": "tuesday, never monday",
+        "avoid": "blaming the absent",
+        "companion": "XIII death"
+      }
+    },
+    {
+      "id": "16",
+      "roman": "XVI",
+      "name_traditional": "the tower",
+      "name_codex": "// the production incident",
+      "name_technical": "incident.revert()",
+      "illustration_path": "assets/16-production-incident.png",
+      "reading": {
+        "opening": "The thing that breaks today was already broken. You're just the one who got the page.",
+        "today": "Today is a crisis day.",
+        "body": "Don't try to fix it before you understand it. Don't blame the last engineer. They were as scared as you are now. Roll back. Sleep. Read the postmortem in the morning."
+      },
+      "do_list": [
+        "revert before you fix",
+        "ping someone senior",
+        "close your laptop after 23:00",
+        "write down what you tried"
+      ],
+      "dont_list": [
+        "push a hotfix you wrote in panic",
+        "apologize in #general",
+        "check the metrics every 4 minutes"
+      ],
+      "lucky": {
+        "color": "#0A0A0A",
+        "commit": "revert: rollback to v0.8.2",
+        "time": "after 22:00 only",
+        "avoid": "production deploys, hot takes",
+        "companion": "XX the code review after review"
+      }
+    },
+    {
+      "id": "17",
+      "roman": "XVII",
+      "name_traditional": "the star",
+      "name_codex": "// the side project",
+      "name_technical": "sideproject.tend()",
+      "illustration_path": "assets/17-side-project.png",
+      "reading": {
+        "opening": "Your day job pays you. Your night project defines you. Today, give it the small hour it needs.",
+        "today": "Today is a hope day.",
+        "body": "The thing you build for no one is the thing that will eventually find its someone. Don't quit. Don't ship. Just open the file."
+      },
+      "do_list": [
+        "spend 30 minutes on the side thing",
+        "write down the idea you had in the shower",
+        "buy the domain",
+        "show it to one trusted friend"
+      ],
+      "dont_list": [
+        "monetize it before you love it",
+        "compare it to launched products",
+        "post about it on twitter yet"
+      ],
+      "lucky": {
+        "color": "#FFD700",
+        "commit": "feat: secret work",
+        "time": "21:00 – 22:00",
+        "avoid": "productivity podcasts",
+        "companion": "0 hello world"
+      }
+    },
+    {
+      "id": "18",
+      "roman": "XVIII",
+      "name_traditional": "the moon",
+      "name_codex": "// the on-call",
+      "name_technical": "oncall.standby()",
+      "illustration_path": "assets/18-oncall.png",
+      "reading": {
+        "opening": "The pager will go off. The question is only when, and whether you'll be sober.",
+        "today": "Today is a vigilance day.",
+        "body": "Stay reachable. Stay close to your laptop. The night is not your friend, but it is your responsibility. Sleep with one eye on the screen."
+      },
+      "do_list": [
+        "charge your phone fully",
+        "pre-warm the dashboards",
+        "have water by the bed",
+        "let your partner know"
+      ],
+      "dont_list": [
+        "drink past one glass",
+        "go more than 20 minutes from wifi",
+        "volunteer to take someone else's shift"
+      ],
+      "lucky": {
+        "color": "#1A1F3A",
+        "commit": "chore: standing by",
+        "time": "the whole 24 hours",
+        "avoid": "concerts, hot tubs, faith",
+        "companion": "XII the deadlock"
+      }
+    },
+    {
+      "id": "19",
+      "roman": "XIX",
+      "name_traditional": "the sun",
+      "name_codex": "// the ship day",
+      "name_technical": "ship.release()",
+      "illustration_path": "assets/19-ship-day.png",
+      "reading": {
+        "opening": "The release is out. The metrics are green. For one afternoon, briefly, you are a god.",
+        "today": "Today is a victory day.",
+        "body": "Take the win. Tell your mother. Post the screenshot. Tomorrow there will be a bug, but tomorrow is tomorrow."
+      },
+      "do_list": [
+        "close all PRs",
+        "write the launch tweet",
+        "thank the team specifically",
+        "leave work at 17:00"
+      ],
+      "dont_list": [
+        "check the metrics obsessively",
+        "start the next thing",
+        "read negative reviews yet"
+      ],
+      "lucky": {
+        "color": "#FFC233",
+        "commit": "release: v1.0.0",
+        "time": "noon onwards",
+        "avoid": "bug triage",
+        "companion": "XXI the mvp"
+      }
+    },
+    {
+      "id": "20",
+      "roman": "XX",
+      "name_traditional": "judgement",
+      "name_codex": "// the code review after review",
+      "name_technical": "review.receive()",
+      "illustration_path": "assets/20-code-review-after-review.png",
+      "reading": {
+        "opening": "Someone is reading what you wrote with fresh eyes. They will see what you no longer can.",
+        "today": "Today is a feedback day.",
+        "body": "The comments are not attacks. They are gifts written badly. Receive them. Reply with grace. The pull request that taught you something is the one that mattered."
+      },
+      "do_list": [
+        "read every comment fully",
+        "ask \"can you say more\" instead of defending",
+        "accept the suggestion you don't like",
+        "thank the reviewer publicly"
+      ],
+      "dont_list": [
+        "argue in line comments",
+        "mark \"wontfix\" without explaining",
+        "take it personally"
+      ],
+      "lucky": {
+        "color": "#F5F5DC",
+        "commit": "chore: address feedback",
+        "time": "09:00 – 11:00",
+        "avoid": "defensive replies",
+        "companion": "XI the audit"
+      }
+    },
+    {
+      "id": "21",
+      "roman": "XXI",
+      "name_traditional": "the world",
+      "name_codex": "// the mvp",
+      "name_technical": "mvp.deploy()",
+      "illustration_path": "assets/21-mvp.png",
+      "reading": {
+        "opening": "The smallest version that works is the most beautiful version that exists.",
+        "today": "Today is a completion day.",
+        "body": "The thing is done. It is small, and it is real, and it is enough. Don't add the feature. Don't polish the UI. Show it to a user. The next version starts tomorrow."
+      },
+      "do_list": [
+        "launch what you have",
+        "write the README",
+        "demo to one person",
+        "close the laptop early"
+      ],
+      "dont_list": [
+        "add \"just one more thing\"",
+        "delay for polish",
+        "compare to v2 in your head"
+      ],
+      "lucky": {
+        "color": "#F0EBE0",
+        "commit": "release: mvp",
+        "time": "17:00 sharp",
+        "avoid": "feature creep",
+        "companion": "XIX the ship day"
+      }
+    }
+  ]
+}
